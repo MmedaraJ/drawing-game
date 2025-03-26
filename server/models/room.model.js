@@ -15,8 +15,7 @@ const RoomSchema = new mongoose.Schema({
             true,
             "Owner id is required"
         ]
-    },
-
+    }
 }, { timestamps: true });
 
 module.exports.Room = mongoose.model('Room', RoomSchema);
